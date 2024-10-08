@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   overflow-x: hidden;
+}
+
+.logo img{
+    width: 150px;
+    height: 100px;
+}
+.sec1{
+    background-image: url(assests/3d-gym-equipment.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texts{
+    width: 800px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.texts a{
+    color: #fff;
+    text-decoration: none;
+}
+.no-fill{
+    -webkit-text-stroke: 1px gold;
+    -webkit-text-fill-color: transparent;
+    color: gold;
+    font-weight: 900;
+    font-size: 50px;
+    
+
+}
+.content{
+    transform: translate(800px,300px);
+}
+h1{
+    color: #fff;
+    font-size: 40px;
+}
+.sec2{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 80px;
+}
+.sec2-text{
+    color: black;
+}
+.sec2-para{
+    color: black;
+}
+button{
+    padding: 10px;
+    color: #fff;
+    background: goldenrod;
+    border: none;
+    font-size: 18px;
+}
+/* ------------ */
+
+.sec3{
+    background: black;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+h3{
+    color: gold;
+    padding-top: 20px;
+}
+h2{
+    color: #fff;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 100px;
+}
+.image1 img{
+    width: 300px;
+    height: auto;
+}
+p{
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ,,,,,,,,sec4,,,,,, */
+.sec4{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    /* display: flex; */
+   padding-inline-start: 20px;
+   text-align: center;
+
+}
+hr{
+    width: 50%;
+    text-align: center;
+}
+h4{
+    color: gold;
+}
+p{
+    font-weight: 100;
+}
+.sec4 img{
+    width: 600px;
+    height: auto;  
+}
+.dots{
+    font-size: 70px;
+}
+/* ..........sec5......... */
+.sec5{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+}
+.one img{
+    width: 100%;
+    height: 90vh;
+}
+.two{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 60px;
+   
+}
+.sec5-h1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.gold{
+    color: gold;
+}
+.two:hover{
+    cursor: pointer;
+   
+    
+}
+/* bdhewjfkhjfgudew */
+.sec6{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sec6 img{
+    width: 300px;
+    height: auto;
+}
+.sec7{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.insta{
+    color: gold;
+}
+.left i{
+    color: #fff;
+    padding: 10px;
+}
+.right{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.right img{
+   width: 200px;
+   height: auto;
+   padding: 10px;
+}
+/* ....fooetr */
+
+footer{
+    width: 100%;
+    height: 30vh;
+    margin-inline: 30px;
+    display: flex;
+   overflow-y: hidden;
+    
+}
+.foot1{
+    width: 20%;
+    gap: 10px;
+}
+.foot1 img{
+    width: 150px;
+    height: 100px;
+}
+.foot-text{
+    color: gray;
+}
+.foot2{
+    width: 60%;
+    transform: translate(0px,100px);
+}
+.foot2 a{
+   
+    
+    
+padding: 20px;
+text-decoration: none;
+color: black;
+   
+
+}
+.foot3{
+    line-height: 30px;
+   padding: 100px;
+}
+.foot3 i{
+    padding: 20px;
+}
+
+
+/* ======media queries====== */
+
+@media screen and (max-width:380px) {
+    .sec1{
+        /* background-repeat: no-repeat; */
+    }
+    .texts a{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        font-size: 10px;
+        position: relative;
+        left: -100px;
+    }
+    .image1 img{
+        width: 100px;
+        height: auto;
+        overflow-y: hidden;
+    }
+    .sec4{
+        margin-bottom: 0;
+    }
+    .left-text img{
+        width: 160px;
+        height: auto;
+    }
+    .one img{
+        width: 200px;
+        height: auto;
+        margin-left: 60px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec7{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .foot1{
+        display: none;
+    }
+    .foot2 a{
+        font-size: 15px;
+    }
+   
+    
+}
+
